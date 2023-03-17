@@ -16,9 +16,11 @@ Test on our code
 ----------------------------------------------------
 If you want test WPR-SRRes or use or our test code you should :
 
-Modify test_config.py
+* Download [pretrained wpr model](https://drive.google.com/drive/folders/1yMxgA8wpfcHQ1CRUrJyiU__D_tD3fi4K?usp=sharing).
 
-Run test.py
+* Modify test_config.py
+
+* Run test.py
 
 Metric
 ----------------------------------------------------
