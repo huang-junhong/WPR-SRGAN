@@ -31,7 +31,7 @@ Our test enviorment are RTX3090 + Intel gold 6330, pytroch==1.10.0, Ubuntu 20.04
 
 If you want implement by yourself, note follow details:
 
-* 1.
+* 1. Don't use big batch-size like 64. Big batch-szie will make discriminator converge fast, it not a good property for WPR-SRGAN. You can use big HR-size to instead increas the batch-size.
 * 2.
 * 3.
 * 4.
