@@ -9,7 +9,7 @@ WPR-SRGAN's Generator Structure is [ESRGAN](https://github.com/xinntao/ESRGAN)
 
 Real-WPRSRGAN's Generator Structure is [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)
 
-so you can use thirs code or basicsr to fast test our model.
+so you can use thirs code or basicsr to fast test [our model](https://drive.google.com/drive/folders/1yMxgA8wpfcHQ1CRUrJyiU__D_tD3fi4K?usp=sharing).
 
 Test on our code
 ----------------------------------------------------
