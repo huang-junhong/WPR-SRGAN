@@ -23,8 +23,7 @@ Run test.py
 Metric
 ----------------------------------------------------
 The different OS (windows or linux's different version) will effect the final value. (The value will beter than our report in Windows11)\
-Except PSNR calculate in matlab-2017b, others calculated in [iqa-pytorch](https://github.com/chaofengc/IQA-PyTorch).\
-Our test enviorment are RTX3090 + Intel gold 6330, pytroch==1.10.0, Ubuntu 20.04 and cuda 11.3.
+Except PSNR calculate in matlab-2017b, others calculated in [iqa-pytorch](https://github.com/chaofengc/IQA-PyTorch), with enviorment RTX3090 + Intel gold 6330, pytroch==1.10.0, Ubuntu 20.04 and cuda 11.3.
 
 ----------------------------------------------------
 # Train
