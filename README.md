@@ -31,9 +31,8 @@ Except PSNR calculate in matlab-2017b, others calculated in [iqa-pytorch](https:
 If you want implement by yourself, note follow details:
 
 * 1. Don't use big batch-size like 64. Big batch-szie will make discriminator converge fast, it not a good property for WPR-SRGAN. You can use big HR-size to instead increas the batch-size.
-* 2.
-* 3.
-* 4.
+* 2. 
+* 3. 
 
 Begin Train:
 ---------------------------------------------------
