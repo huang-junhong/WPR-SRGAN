@@ -16,7 +16,7 @@ Test on our code
 ----------------------------------------------------
 If you want test WPR-SRRes or use or our test code you should :
 
-Modify test_opt.py
+Modify test_config.py
 
 Run test.py
 
@@ -39,5 +39,5 @@ If you want implement by yourself, note follow details:
 Begin Train:
 ---------------------------------------------------
 1. Change the file path in make_dateset.py and run it. Or use your Date_Loader instead ours.
-2. Change train_opt.py
+2. Change train_config.py
 3. Run train.py
