@@ -49,11 +49,12 @@ def load_img(Paths, Normlize=False, as_array=False, Gray=False, CHW=False):
         imgs=np.array(imgs)
     return imgs
 
-def tensor2img(input):
-    current = input.squeeze().detach().cpu().numpy()
-    if len(current.shape) == 3:
-        current = np.transpose(current, [1,2,0])
+def tensor2img(input, recover='A'):
 
-    current = np.clip(current*255., 0, 255).astype('uint8')
-    
+    current = input.squeeze().detach().cpu().numpy()
+    if len(current) == 3:
+        current = np.transpose(current, [1,2,0])
+    if recover == 'A':
+        current = np.clip(current*255.,0,255).astype('uint8')
+
     return current
